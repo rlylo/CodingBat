@@ -1,6 +1,6 @@
 package warmup;
 
-public class monkeyTrouble {
+public class MonkeyTrouble {
     public static void main(String[] args) {
         boolean monkey1 = true;
         boolean monkey2 = true;
