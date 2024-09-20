@@ -2,12 +2,16 @@ package warmup;
 
 public class SumDouble {
     public static void main(String[] args) {
+        int a = 4;
+        int b = 3;
+        int sum = sumDouble(a,b);
+        System.out.println(sum);
 
 
 
     }
 
-    public int sumDouble(int a, int b) {
+    public static int sumDouble(int a, int b) {
         if (a == b) {
             return (a + b) * 2;
         } else {
