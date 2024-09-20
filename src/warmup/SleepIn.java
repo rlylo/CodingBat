@@ -3,12 +3,24 @@ package warmup;
 public class SleepIn {
     public static void main(String[] args) {
 
+        boolean weekday = true;
+        boolean vacation = false;
+        boolean sleepInHome = sleepIn(weekday,vacation);
+        System.out.println(sleepInHome);
 
 
 
 
     }
 
+    public static boolean sleepIn(boolean weekday, boolean vacation) {
+        if (!weekday || vacation) {
+            return true;
+        } else {
+            return false;
+        }
+
+    }
 
 }
 /*
