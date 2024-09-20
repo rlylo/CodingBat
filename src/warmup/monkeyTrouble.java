@@ -2,12 +2,20 @@ package warmup;
 
 public class monkeyTrouble {
     public static void main(String[] args) {
+        boolean monkey1 = true;
+        boolean monkey2 = true;
+        boolean monkeyIssue = monkeyTrouble(monkey1, monkey2);
+        System.out.println(monkeyIssue);
 
     }
 
-    
-    public boolean monkeyTrouble(boolean aSmile, boolean bSmile) {
-        return true;
+
+    public static boolean monkeyTrouble(boolean aSmile, boolean bSmile) {
+        if ((aSmile && bSmile) || (!aSmile && !bSmile)) {
+            return true;
+        } else {
+            return false;
+        }
 
     }
 
