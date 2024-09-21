@@ -2,7 +2,7 @@ package warmup;
 
 public class SumDouble {
     public static void main(String[] args) {
-        int a = 4;
+        int a = 3;
         int b = 3;
         int sum = sumDouble(a,b);
         System.out.println(sum);
